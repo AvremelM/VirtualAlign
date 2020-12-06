@@ -6,12 +6,21 @@
 	"engines": {
 		"vscode": "^1.51.0"
 	},
+	"author": {
+		"name": "Avremel",
+		"url": "https://github.com/AvremelM"
+	},
+	"publisher": "Avremel",
 	"categories": [
-		"Formatters", "Other"
+		"Formatters",
+		"Other"
 	],
 	"preview": true,
 	"license": "MIT",
-	"keywords": ["align", "imports"],
+	"keywords": [
+		"align",
+		"imports"
+	],
 	"activationEvents": [
 		"onLanguage:typescript",
 		"onLanguage:javascript"
