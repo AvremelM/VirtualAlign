@@ -18,21 +18,7 @@
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [],
-		"configuration": {
-			"title": "VirtualAlign",
-			"properties": {
-				"virtualalign.lineItemRegex": {
-					"type": "string",
-					"default": "(^[\\t ]*import\\s.*?)\\bfrom\\s*[^\\n]+$"
-				},
-				"virtualalign.groupSeparatorRegex": {
-					"type": "string",
-					"default": "\\n",
-					"format": "regex"
-				}
-			}
-		}
+		"commands": []
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
